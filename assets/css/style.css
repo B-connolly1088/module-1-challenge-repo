@@ -23,7 +23,7 @@ header .seo {
     font-size: 48px;
 }
 
-header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
@@ -35,12 +35,13 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     align-items: flex-end;
+    margin: 0;
 }
 
 header nav ul {
     list-style-type: none;
     display: flex;
-    
+    justify-content: flex-end;
 }
 
 header nav ul li {
